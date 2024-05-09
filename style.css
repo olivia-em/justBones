@@ -18,7 +18,7 @@ main {
 #IMR {
     height: 100vh;
     width: 100vw;
-    background-color: darkgray;
+    background-color: black;
     position: relative;
 }
 
@@ -32,22 +32,30 @@ main {
 #FH {
     height: 100vh;
     width: 100vw;
-    background-color: navy;
+    background-color: darkgray;
     position: relative;
 }
 
 #PAB {
     height: 100vh;
     width: 100vw;
-    background-color: darkgreen;
+    background-color: #7D0011;
     position: relative;
 }
 
 #EH {
     height: 100vh;
     width: 100vw;
-    background-color: #7D0011;
+    background-color: black;
     position: relative;
+}
+div.title {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    text-align: center;
+    font-size: 8pt;
+    opacity: 0.5;
 }
 
 h1 {
@@ -75,7 +83,7 @@ h1.justBones:hover {
 }
 
 h1.reflection {
-    top: 200px;
+    top: 225px;
     left: 52vw;
     font-size: 12pt;
     width: 400px;
@@ -83,6 +91,55 @@ h1.reflection {
     margin-top: -200px; 
     margin-left: -200px;
     padding: 10px;
+    color: #7D0011;
+}
+
+h1.thewood {
+    top: 350px;
+    left: 52vw;
+    font-size: 12pt;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px; 
+    margin-left: -200px;
+    padding: 10px;
+    color: lightgray;
+}
+
+h1.house {
+    top: 250px;
+    left: 52vw;
+    font-size: 12pt;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px; 
+    margin-left: -200px;
+    padding: 10px;
+    color: #7D0011;
+}
+
+h1.picking {
+    top: 350px;
+    left: 52vw;
+    font-size: 12pt;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px; 
+    margin-left: -200px;
+    padding: 10px;
+    color: darkgray;
+}
+
+h1.embrace {
+    top: 275px;
+    left: 52vw;
+    font-size: 12pt;
+    width: 450px;
+    height: 400px;
+    margin-top: -200px; 
+    margin-left: -200px;
+    padding: 10px;
+    color: #7D0011;
 }
 
 h1.mirror {
@@ -109,12 +166,13 @@ div.reflection {
     border-radius: 50%;
     align-content: center;
     justify-content: center;
-    border: solid 7px black;
+    border: solid 7px #7D0011;
     overflow: hidden;
+    opacity: 0.5;
 }
 
 div.mirrors {
-    border: solid 7px black;
+    border: solid 7px #7D0011;
     background-color: lightblue;
     border-radius: 50%;
     position: relative;
@@ -139,8 +197,8 @@ div#m2 {
 div#m3 {
     width: 100px;
     height: 100px;
-    top: -300px;
-    left: 1200px;
+    top:-325;
+    left:400;
 }
 
 div#m4 {
