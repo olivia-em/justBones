@@ -29,6 +29,7 @@ main {
     position: relative;
     background-image: url("assets/thorns.png");
     background-position: center;
+    background-size: 75%;
 }
 
 #FH {
